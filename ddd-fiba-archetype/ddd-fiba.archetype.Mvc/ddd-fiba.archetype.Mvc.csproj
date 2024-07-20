@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ddd_fiba.archetype.Mvc</RootNamespace>
+    <AssemblyName>ddd-fiba.archetype.Mvc</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ddd-fiba.archetype.Infra.StreamLib\ddd-fiba.archetype.Infra.StreamLib.csproj" />
+    <ProjectReference Include="..\ddd-fiba.archetype.sdk\ddd-fiba.archetype.sdk.csproj" />
+  </ItemGroup>
+
+</Project>
